@@ -1,0 +1,358 @@
+a:hover {
+    color: #00ff00
+}
+
+
+h2 {
+    text-decoration: underline;
+}
+
+p {
+   line-height: 1.8;
+   margin: 0%;
+}
+
+
+
+h2 { text-align: center }
+
+.class1 { list-style-type: circle; }
+
+h2 {
+    background-color: #ADD8E6;
+    color: #256579;
+    font: 1.6em Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding: 0.2em;
+  }
+
+
+.class1 {
+    background-color: #ADD8E6;
+    color: #256579;
+    font: 1.6em Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding: 0.2em;
+  }
+
+.class1 {
+    font-size: medium;
+} 
+
+li:first-child {
+    color: rgb(24, 190, 212);
+  }
+
+form {
+     text-align: center 
+}
+
+input.knopka {
+    color: #fff; 
+    text-decoration: none; 
+    user-select: none; 
+    background: rgb(212,75,56); 
+    padding: .7em 1.5em; 
+    outline: none; 
+     } 
+      input.knopka:hover { background: rgb(2, 213, 250); } 
+      input.knopka:active { background: rgb(36, 7, 206); } 
+
+.ramka {
+
+    border-bottom:2px solid #000000;
+        
+    border-left:1px dotted rgb(24, 190, 212);
+        
+    border-right:1px dotted rgb(24, 190, 212);
+        
+    border-top:1px solid gray;
+        
+    padding:20px 30px 40px 10px;
+
+    text-align: center
+        
+    }
+
+.ramka {
+    font-size: 30px;
+}
+
+.obtekanie{
+    float:right;
+    margin: 50px 50px 20px 50px;
+    opacity: 0.4;
+    }
+
+.pose {
+ background: rgb(24, 190, 212); 
+ margin-left: 1em; 
+}
+
+body{
+    background-image: url("../img/ep_naturalwhite.png");
+   }
+   header{
+    margin-top: 50px;
+    font-family: Cuprum, Arial, Helvetica, sans-serif;
+   }
+   .dws-menu *{
+    margin: 0;
+    padding: 0;
+   }
+   .dws-menu ul,
+   .dws-menu ol{
+    list-style: none;
+   }
+   .dws-menu > ul{
+    display: flex;
+    justify-content: center;
+   }
+   .dws-menu > ul li{
+    position: relative;
+    border-right: 1px solid #2557bd;
+   }
+   .dws-menu > ul li:first-child{
+    border-left: 1px solid #2557bd;
+   }
+   .dws-menu > ul li:last-child{
+    border-right: 1px solid #2557bd;
+   }
+   .dws-menu > ul li > a i.fa{
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+   }
+   .dws-menu > ul li a{
+    display: block;
+    
+    background: #2557bd; 
+    background: -moz-linear-gradient(top,  #2557bd 0%, #2557bd 2%, #2557bd 98%, #2557bd 66%); 
+    background: -webkit-linear-gradient(top,  #2557bd 0%,#2557bd 2%,#2557bd 98%,#2557bd 66%); 
+    background: linear-gradient(to bottom,  #2557bd 0%,#2557bd 2%,#2557bd 98%,#2557bd 66%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#757577',GradientType=0 ); 
+   
+    padding: 15px 30px 15px 40px;
+    font-size: 14px;
+    color: #454547;
+    text-decoration: none;
+    text-transform:uppercase;
+    transition: all 0.3s ease;
+   }
+   .dws-menu li a:hover{
+    
+    background: rgb(224,225,229); 
+    background: -moz-linear-gradient(top,  rgba(224,225,229,1) 0%, rgba(69,69,71,1) 2%, rgba(69,69,71,1) 98%, rgba(224,225,229,1) 100%); 
+    background: -webkit-linear-gradient(top,  rgba(224,225,229,1) 0%,rgba(69,69,71,1) 2%,rgba(69,69,71,1) 98%,rgba(224,225,229,1) 100%); 
+    background: linear-gradient(to bottom,  rgba(224,225,229,1) 0%,rgba(69,69,71,1) 2%,rgba(69,69,71,1) 98%,rgba(224,225,229,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e1e5', endColorstr='#e0e1e5',GradientType=0 ); 
+   
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+   }
+   
+
+   .dws-menu li ul{
+    position: absolute;
+    min-width: 150px;
+    display: none;
+   }
+   .dws-menu li > ul li{
+    border: 1px solid #c7c8ca;
+   }
+   .dws-menu li > ul li a{
+    padding: 10px;
+    text-transform: none;
+    background: #e4e4e5;
+   }
+   .dws-menu li > ul li ul{
+    position: absolute;
+    right: -150px;
+    top: 0;
+   }
+   .dws-menu li:hover > ul{
+    display: block;
+   }
+
+html {
+    background-image: url(https://w-dog.ru/wallpapers/10/0/432768716421349.jpg);
+}
+
+html {
+    background-attachment: url(https://w-dog.ru/wallpapers/10/0/432768716421349.jpg);
+}
+
+#text-shadow {
+            text-shadow: 5px 5px 5px #2557bd;
+            font-size: 30px;
+        } 
+        
+#pikapika {
+            word-break: keep-all;
+        }
+        
+.rgb {
+            background-color: rgba(0, 255, 242, 0.9);
+            
+            }
+            
+
+#pikapika {
+  padding: 5px;
+  border: 1px solid;
+  display: table;
+  max-width: 100%;
+}
+
+#pikapika {
+    background: #fefcea; 
+    background: linear-gradient(to top, #fefcea, #2557bd);
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background: transparent;
+}
+
+#container {
+  background: url(http://pngimg.com/uploads/earth/earth_PNG14.png);
+  background-repeat: no-repeat;
+  -webkit-perspective: 600px;
+  -webkit-perspective-origin: 50% 0%;
+  perspective: 600px;
+  perspective-origin: 50% 0%; 
+  width: 660px;
+  height: 600px;
+  margin: 50px auto 0;
+}
+#butterfly {
+  position: relative;
+  width: 350px;
+  height: 312px;
+  -webkit-transform: rotate3d(0, 1, 0, 0deg) scale3d(0.5, 0.5, 0.5);
+  -ms-transform: rotate3d(0, 1, 0, 0deg) scale3d(0.5, 0.5, 0.5);
+  transform: rotate3d(0, 1, 0, 0deg) scale3d(0.5, 0.5, 0.5);
+  -webkit-transform-origin: 100% 0%;
+  -ms-transform-origin: 100% 0%;
+  transform-origin: 100% 0%;
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-animation: butterfly 5s linear infinite;
+  animation: butterfly 5s linear infinite;
+}
+#leftwing {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200px;
+  height: 312px;
+  background-image: url(https://html5book.ru/wp-content/uploads/2015/06/butterfly.png);
+  background-repeat: no-repeat;
+  -webkit-transform: rotateX(90deg) rotate3d(0, 1, 0, 0deg);
+  -ms-transform: rotateX(90deg) rotate3d(0, 1, 0, 0deg);
+  transform: rotateX(90deg) rotate3d(0, 1, 0, 0deg);
+  -webkit-transform-origin: inherit;
+  -ms-transform-origin: inherit;
+  transform-origin: inherit;
+  -webkit-animation: leftwing 0.2s linear infinite;
+  animation: leftwing 0.2s linear infinite;
+}
+#rightwing {
+  position: absolute;
+  left: 175px;
+  top: 0px;
+  width: 200px;
+  height: 312px;
+  background-image: url(https://html5book.ru/wp-content/uploads/2015/06/butterfly.png);
+  background-repeat: no-repeat;
+  -webkit-transform: rotateX(90deg) translate3d(-178px, 0, 0) rotate3d(0, 1, 0, 180deg);
+  -ms-transform: rotateX(90deg) translate3d(-178px, 0, 0) rotate3d(0, 1, 0, 180deg);
+  transform: rotateX(90deg) translate3d(-178px, 0, 0) rotate3d(0, 1, 0, 180deg);
+  -webkit-transform-origin: inherit;
+  -ms-transform-origin: inherit;
+  transform-origin: inherit;
+  -webkit-animation: rightwing 0.2s linear infinite;
+  animation: rightwing 0.2s linear infinite;
+}
+@-webkit-keyframes butterfly {
+  from {
+    -webkit-transform: rotate3d(0, 1, 0, 0deg) scale3d(0.5, 0.5, 0.5) translate3d(-150px, 300px, 0);
+  }
+  25% {
+    -webkit-transform: rotate3d(0, 1, 0, -90deg) scale3d(0.5, 0.5, 0.5) translate3d(-150px, 300px, 0);
+  }
+  50% {
+    -webkit-transform: rotate3d(0, 1, 0, -180deg) scale3d(0.5, 0.5, 0.5) translate3d(-150px, 300px, 0);
+  }
+  75% {
+    -webkit-transform: rotate3d(0, 1, 0, -270deg) scale3d(0.5, 0.5, 0.5) translate3d(-150px, 300px, 0);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 1, 0, -360deg) scale3d(0.5, 0.5, 0.5) translate3d(-150px, 300px, 0);
+  }
+}
+@keyframes butterfly {
+  from {
+    transform: rotate3d(0, 1, 0, 0deg) scale3d(0.5, 0.5, 0.5) translate3d(-150px, 300px, 0);
+  }
+  25% {
+    transform: rotate3d(0, 1, 0, -90deg) scale3d(0.5, 0.5, 0.5) translate3d(-150px, 300px, 0);
+  }
+  50% {
+    transform: rotate3d(0, 1, 0, -180deg) scale3d(0.5, 0.5, 0.5) translate3d(-150px, 300px, 0);
+  }
+  75% {
+    transform: rotate3d(0, 1, 0, -270deg) scale3d(0.5, 0.5, 0.5) translate3d(-150px, 300px, 0);
+  }
+  to {
+    transform: rotate3d(0, 1, 0, -360deg) scale3d(0.5, 0.5, 0.5) translate3d(-150px, 300px, 0);
+  }
+}
+@-webkit-keyframes rightwing {
+  from {
+    -webkit-transform: rotateX(90deg) translate3d(-178px, 0, 0) rotate3d(0, 1, 0, 180deg);
+  }
+  50% {
+    -webkit-transform: rotateX(90deg) translate3d(-178px, 0, 0) rotate3d(0, 1, 0, 100deg);
+  }
+  to {
+    -webkit-transform: rotateX(90deg) translate3d(-178px, 0, 0) rotate3d(0, 1, 0, 180deg);
+  }
+}
+@keyframes rightwing {
+  from {
+    transform: rotateX(90deg) translate3d(-178px, 0, 0) rotate3d(0, 1, 0, 180deg);
+  }
+  50% {
+    transform: rotateX(90deg) translate3d(-178px, 0, 0) rotate3d(0, 1, 0, 100deg);
+  }
+  to {
+    transform: rotateX(90deg) translate3d(-178px, 0, 0) rotate3d(0, 1, 0, 180deg);
+  }
+}
+@-webkit-keyframes leftwing {
+  from {
+    -webkit-transform: rotateX(90deg) rotate3d(0, 1, 0, 0deg);
+  }
+  50% {
+    -webkit-transform: rotateX(90deg) rotate3d(0, 1, 0, 80deg);
+  }
+  to {
+    -webkit-transform: rotateX(90deg) rotate3d(0, 1, 0, 0deg);
+  }
+}
+@keyframes leftwing {
+  from {
+    transform: rotateX(90deg) rotate3d(0, 1, 0, 0deg);
+  }
+  50% {
+    transform: rotateX(90deg) rotate3d(0, 1, 0, 80deg);
+  }
+  to {
+    transform: rotateX(90deg) rotate3d(0, 1, 0, 00deg);
+  }
+}
